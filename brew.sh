@@ -102,5 +102,20 @@ brew install vbindiff
 brew install webkit2png
 brew install zopfli
 
+# Custom
+brew install curl
+brew install ffmpeg
+brew install gnupg
+brew install gnupg2
+brew install gpg-agent
+brew install htop
+brew install iftop
+brew install pinentry pinentry-mac
+brew install rbenv
+brew install youtube-dl
+brew install ykpers
+brew install asciinema
+brew install nano
+
 # Remove outdated versions from the cellar.
 brew cleanup
