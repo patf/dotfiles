@@ -26,12 +26,6 @@ brew install bash
 brew tap homebrew/versions
 brew install bash-completion2
 
-# Switch to using brew-installed bash as default shell
-if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
-  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
-  chsh -s /usr/local/bin/bash;
-fi;
-
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
@@ -65,7 +59,6 @@ brew install dns2tcp
 brew install fcrackzip
 brew install foremost
 brew install hashpump
-brew install hydra
 brew install john
 brew install knock
 brew install netpbm
@@ -116,6 +109,8 @@ brew install youtube-dl
 brew install ykpers
 brew install asciinema
 brew install nano
+brew install mercurial
+
 
 # Remove outdated versions from the cellar.
 brew cleanup
