@@ -29,6 +29,9 @@
 	branches = branch -a
 	remotes = remote -v
 
+	# List aliases
+	aliases = config --get-regexp alias
+
 	# Amend the currently staged files to the latest commit
 	amend = commit --amend --reuse-message=HEAD
 
@@ -101,6 +104,10 @@
 	precomposeunicode = false
 
 	editor = nano
+
+	# Speed up commands involving untracked files such as `git status`.
+	# https://git-scm.com/docs/git-update-index#_untracked_cache
+	untrackedCache = true
 
 [color]
 
