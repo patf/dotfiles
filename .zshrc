@@ -71,3 +71,5 @@ if [[ -s "${_gpg_env}" ]]; then
   export SSH_AGENT_PID
   export GPG_TTY="$(tty)"
 fi
+
+export HOMEBREW_NO_AUTO_UPDATE="1"
