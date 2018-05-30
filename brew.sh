@@ -91,6 +91,7 @@ brew install rclone
 
 # YubiKey
 brew install ykpers
+brew tap caskroom/drivers
 brew cask install yubico-authenticator
 
 
