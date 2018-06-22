@@ -744,8 +744,12 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 defaults write com.operasoftware.Opera PMPrintingExpandedStateForPrint2 -boolean true
 defaults write com.operasoftware.OperaDeveloper PMPrintingExpandedStateForPrint2 -boolean true
 
+###############################################################################
 # Custom                                                                      #
 ###############################################################################
+
+# disable QuickLook caching: https://objective-see.com/blog/blog_0x30.html
+qlmanage -r disablecache
 
 # Enable firewall logging
 sudo defaults write /Library/Preferences/com.apple.alf loggingenabled -bool true
